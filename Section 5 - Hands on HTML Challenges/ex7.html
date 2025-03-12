@@ -1,0 +1,44 @@
+<!-- Create a Form with Input Fields
+Task: Create a simple form with two input fields: one for "Username" and one for "Password."
+
+Instructions:
+
+Use the <form> tag to create the form.
+
+Use the <input> tag for the input fields.
+
+Use the label tag for the label for the input fields.
+
+Make sure you give id attribute with value "username" and "password" for the username and password input tag respectively.
+
+Give appropriate type attribute to the input tags. -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Login Form</title>
+</head>
+<body>
+
+    <h2>Login Form</h2>
+
+    <form action="/submit">
+        <!-- Username Field -->
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+        <br><br>
+
+        <!-- Password Field -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <br><br>
+
+        <!-- Submit Button -->
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>
